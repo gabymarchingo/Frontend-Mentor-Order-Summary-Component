@@ -1,0 +1,62 @@
+body {
+    background-image: url(images/pattern-background-desktop.svg); 
+/* background: hsl(225, 100%, 94%); */
+font-family: "Red Hat Display", serif;
+}
+.card {
+    margin-top: 130px;
+    margin-left: 580px;
+    display: flex;
+}
+.card-title {
+    font-weight: 900;
+}
+p {
+   color: hsl(224, 23%, 55%);
+}
+.btn {
+    background-color:hsl(245, 75%, 52%) ;
+    color: #fff;
+    padding: 10px 46px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.plan {
+    height: 60px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+.icon-container {
+    width: 15%;
+}
+.icon {
+    width: 100%;
+    height: auto;
+}
+ul {
+    padding-top: 20px;
+}
+ul li {
+    list-style: none;
+    margin-right: 30px;
+   
+}
+.bold {
+    font-weight: 900;
+}
+@media (max-width: 600px) {
+    .card {
+        margin-top: 120px;
+        margin-left: 100px;
+        display: flex;
+    }
+}
